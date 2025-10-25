@@ -2,22 +2,16 @@
 #include <cstdint>
 #include <tuple>
 #include <algorithm>
+#include <set>
 
 using namespace std;
-
-void dec2bin(uint32_t n) {
-    for(int i = 15; i >= 0; i--) {
-        if((n >> i) & 1) {
-            cout << "1";
+    
+    int main() {
+        set<int> s = {50, 10, 20, 30, 20};
+        for(int x : s) {
+            cout << x << " ";
         }
-        else {
-            cout << "0";
-        }
+        if(s.find(10) != s.end())
+        {cout << "found";}
+        return 0;
     }
-}
-
-int main() {
-    uint32_t num1 = 0b0011101111111111;
-    dec2bin(num1);
-    return 0;
-}
