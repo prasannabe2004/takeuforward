@@ -3,12 +3,16 @@
 using namespace std;
 
 /*
-You are given an integer n. 
-You need to find out the number of prime numbers in the range [1, n] (inclusive). 
-Return the number of prime numbers in the range.
-
-A prime number is a number which has no divisors except, 1 and itself.
-*/
+ * Count prime numbers in the range [1, n].
+ * 
+ * Given an integer n, find the count of prime numbers in the range [1, n] inclusive.
+ * A prime number is a number which has no divisors except 1 and itself.
+ * 
+ * Example:
+ *   Input: n = 10
+ *   Output: 4
+ *   Explanation: Prime numbers in [1, 10] are 2, 3, 5, 7
+ */
 
 class Solution {
 public:

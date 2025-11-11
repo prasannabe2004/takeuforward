@@ -3,11 +3,16 @@
 using namespace std;
 
 /*
-You are given two integers n1 and n2. You need find the Greatest Common Divisor (GCD) of the two given numbers.
-Return the GCD of the two numbers.
-
-The Greatest Common Divisor (GCD) of two integers is the largest positive integer that divides both of the integers.
-*/
+ * Find the Greatest Common Divisor (GCD) of two numbers.
+ * 
+ * Given two integers n1 and n2, return their GCD.
+ * The GCD is the largest positive integer that divides both numbers.
+ * 
+ * Example:
+ *   Input: n1 = 12, n2 = 18
+ *   Output: 6
+ *   Explanation: 6 is the largest number that divides both 12 and 18
+ */
 
 class Solution
 {

@@ -1,14 +1,17 @@
 /*
-Given an integer n. You need to recreate the pattern given below for any value of N. Let's say for N = 5, the pattern should look like as below:
-
-*
-**
-***
-****
-*****
-
-Print the pattern in the function given to you.
-*/
+ * Print a right triangle pattern of stars.
+ * 
+ * Given an integer n, print a right triangle pattern where row i has i stars.
+ * 
+ * Example:
+ *   Input: n = 5
+ *   Output:
+ *     *
+ *     **
+ *     ***
+ *     ****
+ *     *****
+ */
 
 #include <iostream>
 

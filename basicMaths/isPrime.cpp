@@ -3,11 +3,16 @@
 using namespace std;
 
 /*
-You are given an integer n. You need to check if the number is prime or not. 
-Return true if it is a prime number, otherwise return false.
-
-A prime number is a number which has no divisors except 1 and itself.
-*/
+ * Check if a number is prime.
+ * 
+ * Given an integer n, return true if it's a prime number, otherwise false.
+ * A prime number has no divisors except 1 and itself.
+ * 
+ * Example:
+ *   Input: n = 7
+ *   Output: true
+ *   Explanation: 7 is only divisible by 1 and 7
+ */
 
 class Solution {
 public:

@@ -1,14 +1,17 @@
 /*
-Given an integer n. You need to recreate the pattern given below for any value of N. Let's say for N = 5, the pattern should look like as below:
-
-1
-22
-333
-4444
-55555
-
-Print the pattern in the function given to you.
-*/
+ * Print a right triangle pattern with repeated row numbers.
+ * 
+ * Given an integer n, print a pattern where row i has the number i repeated i times.
+ * 
+ * Example:
+ *   Input: n = 5
+ *   Output:
+ *     1
+ *     22
+ *     333
+ *     4444
+ *     55555
+ */
 
 #include <iostream>
 

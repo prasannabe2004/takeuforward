@@ -1,18 +1,22 @@
 /*
-Given an integer n. You need to recreate the pattern given below for any value of N. Let's say for N = 5, the pattern should look like as below:
-
-*
-**
-***
-****
-*****
-****
-***
-**
-*
-
-Print the pattern in the function given to you.
-*/
+ * Print a diamond-like pattern of stars.
+ * 
+ * Given an integer n, print a pattern that increases from 1 to n stars,
+ * then decreases back to 1 star.
+ * 
+ * Example:
+ *   Input: n = 5
+ *   Output:
+ *     *
+ *     **
+ *     ***
+ *     ****
+ *     *****
+ *     ****
+ *     ***
+ *     **
+ *     *
+ */
 
 #include <iostream>
 

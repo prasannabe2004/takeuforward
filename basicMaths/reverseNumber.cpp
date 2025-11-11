@@ -1,8 +1,15 @@
 #include <bits/stdc++.h>
 
 /*
-You are given an integer n. Return the integer formed by placing the digits of n in reverse order.
-*/
+ * Reverse the digits of a number.
+ * 
+ * Given an integer n, return the integer formed by placing the digits in reverse order.
+ * 
+ * Example:
+ *   Input: n = 521
+ *   Output: 125
+ *   Explanation: Reversing the digits of 521 gives 125
+ */
 
 class Solution {
 public:

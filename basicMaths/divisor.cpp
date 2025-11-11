@@ -3,11 +3,16 @@
 using namespace std;
 
 /*
-You are given two integers n1 and n2. You need find the Lowest Common Multiple (LCM) of the two given numbers.
-Return the LCM of the two numbers.
-
-The Lowest Common Multiple (LCM) of two integers is the lowest positive integer that is divisible by both the integers.
-*/
+ * Find all divisors of a given number n.
+ * 
+ * Given an integer n, return all positive integers that divide n evenly.
+ * A divisor of n is a positive integer d such that n % d == 0.
+ * 
+ * Example:
+ *   Input: n = 6
+ *   Output: [1, 2, 3, 6]
+ *   Explanation: 6 is divisible by 1, 2, 3, and 6
+ */
 
 class Solution
 {

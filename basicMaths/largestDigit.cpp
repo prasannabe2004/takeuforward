@@ -1,8 +1,15 @@
 #include <bits/stdc++.h>
 
 /*
-You are given an integer n. Return the largest digit present in the number.
-*/
+ * Find the largest digit in a number.
+ * 
+ * Given an integer n, return the largest digit present in the number.
+ * 
+ * Example:
+ *   Input: n = 4329
+ *   Output: 9
+ *   Explanation: The largest digit in 4329 is 9
+ */
 
 using namespace std;
 

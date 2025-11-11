@@ -1,8 +1,16 @@
 #include <bits/stdc++.h>
 
 /*
-You are given an integer n. Return the value of n! or n factorial.
-Factorial of a number is the product of all positive integers less than or equal to that number.*/
+ * Calculate the factorial of a number.
+ * 
+ * Given an integer n, return n! (n factorial).
+ * Factorial of a number is the product of all positive integers less than or equal to that number.
+ * 
+ * Example:
+ *   Input: n = 5
+ *   Output: 120
+ *   Explanation: 5! = 5 × 4 × 3 × 2 × 1 = 120
+ */
 
 class Solution {
 public:
