@@ -3,10 +3,10 @@
 
 /*
  * Check if a number is an Armstrong number.
- * 
+ *
  * An Armstrong number is a number which is equal to the sum of its digits
  * raised to the power of the number of digits.
- * 
+ *
  * Example:
  *   Input: n = 153
  *   Output: true
@@ -16,10 +16,10 @@
 using namespace std;
 
 class Solution {
-public:
+   public:
     int length(int n) {
         int len = 0;
-        while(n > 0) {
+        while (n > 0) {
             len++;
             n = n / 10;
         }
@@ -29,7 +29,7 @@ public:
         int n = num;
         int result = 0;
         int l = length(n);
-        while(n > 0) {
+        while (n > 0) {
             result = result + pow(n % 10, l);
             n = n / 10;
         }
@@ -37,8 +37,6 @@ public:
     }
 };
 
-
-    
 int main() {
     Solution s;
     cout << s.isArmstrong(53) << endl;

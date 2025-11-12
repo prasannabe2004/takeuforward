@@ -4,10 +4,11 @@ using namespace std;
 
 /*
  * Count prime numbers in the range [1, n].
- * 
- * Given an integer n, find the count of prime numbers in the range [1, n] inclusive.
- * A prime number is a number which has no divisors except 1 and itself.
- * 
+ *
+ * Given an integer n, find the count of prime numbers in the range [1, n]
+ * inclusive. A prime number is a number which has no divisors except 1 and
+ * itself.
+ *
  * Example:
  *   Input: n = 10
  *   Output: 4
@@ -15,25 +16,22 @@ using namespace std;
  */
 
 class Solution {
-public:
+   public:
     bool isPrime(int n) {
-        for(int i = 2; i < n - 1; i++) {
-            if(n%i == 0)
-                return false;
+        for (int i = 2; i < n - 1; i++) {
+            if (n % i == 0) return false;
         }
         return true;
     }
     int primeUptoN(int n) {
         int count = 0;
-        for(int i = 2; i <= n; i++) {
-            if(isPrime(i)) count++;
+        for (int i = 2; i <= n; i++) {
+            if (isPrime(i)) count++;
         }
         return count;
-    }  
+    }
 };
 
-
-    
 int main() {
     Solution s;
     cout << s.primeUptoN(5) << endl;

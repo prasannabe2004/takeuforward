@@ -1,8 +1,9 @@
 /*
  * Print a right triangle pattern of numbers.
- * 
- * Given an integer n, print a right triangle pattern where row i has numbers 1 to i.
- * 
+ *
+ * Given an integer n, print a right triangle pattern where row i has numbers 1
+ * to i.
+ *
  * Example:
  *   Input: n = 5
  *   Output:
@@ -18,10 +19,10 @@
 using namespace std;
 
 class Solution {
-public:
+   public:
     void pattern3(int n) {
-        for(int i = 0; i < n ; i++) {
-            for(int j = 0; j < i + 1 ;j++) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < i + 1; j++) {
                 cout << j + 1;
             }
             cout << endl;

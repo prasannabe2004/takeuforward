@@ -1,16 +1,15 @@
-#include <iostream>
-#include <cstdint>
-#include <tuple>
 #include <algorithm>
+#include <cstdint>
+#include <iostream>
+#include <tuple>
 
 using namespace std;
 
 void dec2bin(uint32_t n) {
-    for(int i = 15; i >= 0; i--) {
-        if((n >> i) & 1) {
+    for (int i = 15; i >= 0; i--) {
+        if ((n >> i) & 1) {
             cout << "1";
-        }
-        else {
+        } else {
             cout << "0";
         }
     }

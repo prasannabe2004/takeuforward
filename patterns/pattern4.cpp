@@ -1,8 +1,9 @@
 /*
  * Print a right triangle pattern with repeated row numbers.
- * 
- * Given an integer n, print a pattern where row i has the number i repeated i times.
- * 
+ *
+ * Given an integer n, print a pattern where row i has the number i repeated i
+ * times.
+ *
  * Example:
  *   Input: n = 5
  *   Output:
@@ -18,10 +19,10 @@
 using namespace std;
 
 class Solution {
-public:
+   public:
     void pattern4(int n) {
-        for(int i = 0; i < n ; i++) {
-            for(int j = 0; j < i + 1 ;j++) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < i + 1; j++) {
                 cout << i + 1;
             }
             cout << endl;
